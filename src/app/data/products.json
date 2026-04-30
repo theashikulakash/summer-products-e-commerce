@@ -1,0 +1,135 @@
+
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/example1.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Broad Spectrum Sunscreen SPF 50",
+    "brand": "GlowGuard",
+    "price": 18,
+    "rating": 4.9,
+    "stock": 45,
+    "description": "Water-resistant, non-greasy formula for ultimate skin protection.",
+    "image": "https://i.postimg.cc/example2.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 3,
+    "name": "Insulated Stainless Steel Water Bottle",
+    "brand": "HydroPeak",
+    "price": 25,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "Keeps drinks ice-cold for up to 24 hours even in direct sun.",
+    "image": "https://i.postimg.cc/example3.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 4,
+    "name": "Portable Handheld Mini Fan",
+    "brand": "BreezeGo",
+    "price": 12,
+    "rating": 4.5,
+    "stock": 25,
+    "description": "Rechargeable USB fan with three speeds for instant cooling.",
+    "image": "https://i.postimg.cc/example4.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "Quick-Dry Microfiber Beach Towel",
+    "brand": "SandFree",
+    "price": 20,
+    "rating": 4.6,
+    "stock": 50,
+    "description": "Ultra-absorbent, compact, and sand-repellent beach essential.",
+    "image": "https://i.postimg.cc/example5.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 6,
+    "name": "Foldable Wide-Brim Straw Hat",
+    "brand": "SolStyle",
+    "price": 22,
+    "rating": 4.4,
+    "stock": 15,
+    "description": "Elegant straw hat providing ample shade for face and neck.",
+    "image": "https://i.postimg.cc/example6.png",
+    "category": "Apparel"
+  },
+  {
+    "id": 7,
+    "name": "Waterproof Phone Pouch",
+    "brand": "AquaSeal",
+    "price": 10,
+    "rating": 4.7,
+    "stock": 100,
+    "description": "Universal dry bag for smartphones, perfect for pool or beach.",
+    "image": "https://i.postimg.cc/example7.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 8,
+    "name": "Soft-Sided Leakproof Cooler Bag",
+    "brand": "ChillChest",
+    "price": 35,
+    "rating": 4.8,
+    "stock": 12,
+    "description": "Lightweight insulated bag that holds up to 12 cans with ice.",
+    "image": "https://i.postimg.cc/example8.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 9,
+    "name": "Aloe Vera After-Sun Gel",
+    "brand": "Soothie",
+    "price": 9,
+    "rating": 4.9,
+    "stock": 60,
+    "description": "Pure aloe vera gel to cool and hydrate skin after sun exposure.",
+    "image": "https://i.postimg.cc/example9.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 10,
+    "name": "Comfortable Flip-Flops",
+    "brand": "CloudWalk",
+    "price": 14,
+    "rating": 4.3,
+    "stock": 40,
+    "description": "Ergonomic rubber sandals designed for all-day beach comfort.",
+    "image": "https://i.postimg.cc/example10.png",
+    "category": "Apparel"
+  },
+  {
+    "id": 11,
+    "name": "Portable Beach Umbrella",
+    "brand": "SunBlocker",
+    "price": 45,
+    "rating": 4.6,
+    "stock": 8,
+    "description": "Wind-resistant umbrella with a sand anchor and tilt mechanism.",
+    "image": "https://i.postimg.cc/example11.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 12,
+    "name": "Inflatable Pool Float",
+    "brand": "FloatieJoy",
+    "price": 28,
+    "rating": 4.5,
+    "stock": 20,
+    "description": "Durable vinyl pool lounger with built-in cup holders.",
+    "image": "https://i.postimg.cc/example12.png",
+    "category": "Outdoor"
+  }
+]
