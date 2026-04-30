@@ -8,18 +8,18 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://i.postimg.cc/example1.png",
+    "image": "https://kahon.com.bd/wp-content/uploads/2024/07/v1-WhatsApp-Image-2024-07-03-11-e1720165494776.webp",
     "category": "Accessories"
   },
   {
     "id": 2,
-    "name": "Broad Spectrum Sunscreen SPF 50",
+    "name": "Minimalist Sunscreen SPF 50",
     "brand": "GlowGuard",
     "price": 18,
     "rating": 4.9,
     "stock": 45,
     "description": "Water-resistant, non-greasy formula for ultimate skin protection.",
-    "image": "https://i.postimg.cc/example2.png",
+    "image": "https://euadmin.eurasiasupplies.com//storage/images//product/normal-lBuQr1mZw9oeuWLU6A6McIUDvXp2pe.jpg",
     "category": "Skincare"
   },
   {
@@ -30,7 +30,7 @@
     "rating": 4.8,
     "stock": 30,
     "description": "Keeps drinks ice-cold for up to 24 hours even in direct sun.",
-    "image": "https://i.postimg.cc/example3.png",
+    "image": "https://www.bambaw.com/cdn/shop/files/bambaw-stainless-steel-insulated-water-bottle-lead-free.jpg?v=1760343277",
     "category": "Outdoor"
   },
   {
@@ -41,7 +41,7 @@
     "rating": 4.5,
     "stock": 25,
     "description": "Rechargeable USB fan with three speeds for instant cooling.",
-    "image": "https://i.postimg.cc/example4.png",
+    "image": "https://www.startech.com.bd/image/cache/catalog/appliance/charger-fan/fantech/pac6/pac6-blue-01-500x500.webp",
     "category": "Electronics"
   },
   {
@@ -52,7 +52,7 @@
     "rating": 4.6,
     "stock": 50,
     "description": "Ultra-absorbent, compact, and sand-repellent beach essential.",
-    "image": "https://i.postimg.cc/example5.png",
+    "image": "https://s.alicdn.com/@sc04/kf/H624c23a19569495285ce4dee4bebac07H/Best-Selling-90-180cm-Oversized-Large-Quick-Dry-Sand-Free-Beach-Towel-Custom-Printed-Microfiber-Beach-Towel-With-Logo.jpg",
     "category": "Accessories"
   },
   {
@@ -63,7 +63,7 @@
     "rating": 4.4,
     "stock": 15,
     "description": "Elegant straw hat providing ample shade for face and neck.",
-    "image": "https://i.postimg.cc/example6.png",
+    "image": "https://thescarfgiraffe.com/cdn/shop/products/733-924.jpg?v=1678897445&width=600",
     "category": "Apparel"
   },
   {
@@ -74,7 +74,7 @@
     "rating": 4.7,
     "stock": 100,
     "description": "Universal dry bag for smartphones, perfect for pool or beach.",
-    "image": "https://i.postimg.cc/example7.png",
+    "image": "https://img.drz.lazcdn.com/static/bd/p/bfe2a5c969567a4b9aa3915adbfed6fc.jpg_720x720q80.jpg",
     "category": "Electronics"
   },
   {
@@ -85,7 +85,7 @@
     "rating": 4.8,
     "stock": 12,
     "description": "Lightweight insulated bag that holds up to 12 cans with ice.",
-    "image": "https://i.postimg.cc/example8.png",
+    "image": "https://www.waterbottle.tech/wp-content/uploads/2026/03/15.9QT21.1QT-Customized-TPU-Waterproof-Ice-Cooler-Bag-Backpack-Thermal-Insulation-Large-Capacity-CBG015A802-1-500x500.jpg",
     "category": "Outdoor"
   },
   {
@@ -96,7 +96,7 @@
     "rating": 4.9,
     "stock": 60,
     "description": "Pure aloe vera gel to cool and hydrate skin after sun exposure.",
-    "image": "https://i.postimg.cc/example9.png",
+    "image": "https://www.aloeveraaustralia.com.au/wp-content/uploads/2023/12/Aloe-Vera-Sun-Gel-150g.jpg",
     "category": "Skincare"
   },
   {
@@ -107,7 +107,7 @@
     "rating": 4.3,
     "stock": 40,
     "description": "Ergonomic rubber sandals designed for all-day beach comfort.",
-    "image": "https://i.postimg.cc/example10.png",
+    "image": "https://www.footankle.com/wp-content/uploads/2014/04/healthy-comfortable-flip-flops-sandals-wave.jpg",
     "category": "Apparel"
   },
   {
@@ -118,7 +118,7 @@
     "rating": 4.6,
     "stock": 8,
     "description": "Wind-resistant umbrella with a sand anchor and tilt mechanism.",
-    "image": "https://i.postimg.cc/example11.png",
+    "image": "https://images.thdstatic.com/productImages/dfc4d35e-8a73-4f3c-a842-28c419c7f16a/svn/clihome-beach-umbrellas-cl-bl70716-e1_600.jpg",
     "category": "Outdoor"
   },
   {
@@ -129,7 +129,7 @@
     "rating": 4.5,
     "stock": 20,
     "description": "Durable vinyl pool lounger with built-in cup holders.",
-    "image": "https://i.postimg.cc/example12.png",
+    "image": "https://wowsports.com/cdn/shop/files/25-WPF-6906_2.jpg?v=1741893222&width=533",
     "category": "Outdoor"
   }
 ]

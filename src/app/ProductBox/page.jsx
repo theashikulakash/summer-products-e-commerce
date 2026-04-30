@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductBox = () => {
     return (
-        <div>
+        <div className='bg-[#ff7401]'>
             ProductBox
         </div>
     );
