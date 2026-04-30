@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ProfilePage = () => {
+const ProductBox = () => {
     return (
         <div>
-            ProfilePage
+            ProductBox
         </div>
     );
 };
 
-export default ProfilePage;
+export default ProductBox;
