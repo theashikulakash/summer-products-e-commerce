@@ -60,7 +60,6 @@ export default function Navbar() {
                                     <a href="/userprofile">User Profile</a></span>
                             </div>
 
-
                             <button 
                                 onClick={handleLogout}
                                 className="bg-white cursor-pointer rounded-full px-4 py-2 text-black font-bold text-sm hover:bg-red-50 transition-colors"

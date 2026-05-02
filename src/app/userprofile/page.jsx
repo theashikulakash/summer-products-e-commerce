@@ -23,7 +23,7 @@ const ProfilePage = () => {
     }
 
     return (
-        <div className="min-h-[80vh] flex items-center justify-center p-4">
+        <div className="min-h-[80vh] w-fit mx-auto flex items-center justify-center p-4">
             
             <div className="bg-white shadow-2xl rounded-3xl p-10 w-full max-w-md flex flex-col items-center text-center border border-gray-100">
 
@@ -54,19 +54,20 @@ const ProfilePage = () => {
                 <div className="w-full h-px bg-gray-100 my-8"></div>
 
 
-                <div className="grid grid-cols-2 gap-4 w-full mb-8">
-                    <div className="p-3 bg-gray-50 rounded-2xl">
+                <div className="flex flex-row flex-wrap gap-4 w-fit mb-8">
+                    <div className="p-3 bg-gray-50 rounded-2xl px-4 py-4">
                         <p className="text-xs text-gray-400 uppercase font-bold">Role</p>
                         <p className="text-gray-700 font-semibold text-sm">User Member</p>
                     </div>
-                    <div className="p-3 bg-gray-50 rounded-2xl">
+                    <div className="p-3  bg-gray-50 rounded-2xl px-4 py-4">
                         <p className="text-xs text-gray-400 uppercase font-bold">Status</p>
                         <p className="text-green-600 font-semibold text-sm">Verified</p>
                     </div>
                 </div>
 
 
-                <div className="flex flex-col gap-3 mb-8 text-center justify-center">
+                <div className="flex flex-row flex-wrap w-8/12 gap-3 mb-8 text-center justify-center">
+
                     <button
                         onClick={() => router.push("/")}
                         className="w-full max-w-[250px] p-4 bg-[var(--accent)]/80 text-white font-bold rounded-3xl 
