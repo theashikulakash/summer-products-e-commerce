@@ -17,7 +17,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "PeakSummer",
   description: "Gear up for the heat with PeakSummer. From UV protection to cooling tech, find the best deals on high-quality summer goods and beach essentials.",
-  keywords: ["Summer Sale", "Beach Gear", "Sun Protection", "PeakSummer Shop", "Outdoor Essentials"]
+  keywords: ["Summer Sale", "Beach Gear", "Sun Protection", "PeakSummer Shop", "Outdoor Essentials"],
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
