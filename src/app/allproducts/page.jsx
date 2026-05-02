@@ -34,9 +34,11 @@ export default function AllProductBox() {
                   </h3>
                 </Link>
               ) : (
-                <h3 className="card-title text-2xl font-bold text-sky-700 cursor-default">
-                  {product.name}
-                </h3>
+                <Link href="/login">
+                  <h3 className="card-title text-2xl font-bold text-sky-700 cursor-pointer hover:text-sky-900">
+                    {product.name}
+                  </h3>
+                </Link>
               )}
               <p className="text-sm uppercase tracking-[0.2em] text-gray-600/80 mt-2">
                 {product.brand}
