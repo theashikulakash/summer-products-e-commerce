@@ -46,7 +46,7 @@ const ProfilePage = () => {
                         User Name: {user?.name}
                     </h1>
                     <p className="text-sky-600 font-medium bg-sky-50 px-4 py-1 rounded-full text-sm inline-block">
-                        User Email: {user?.email}
+                        <span>User Email: </span><a href="">{user?.email}</a>
                     </p>
                 </div>
 
@@ -56,11 +56,11 @@ const ProfilePage = () => {
 
                 <div className="flex flex-row flex-wrap gap-4 w-fit mb-8">
                     <div className="p-3 bg-gray-50 rounded-2xl px-4 py-4">
-                        <p className="text-xs text-gray-400 uppercase font-bold">Role</p>
+                        <p className="text-xs text-black uppercase font-bold">Role</p>
                         <p className="text-gray-700 font-semibold text-sm">User Member</p>
                     </div>
                     <div className="p-3  bg-gray-50 rounded-2xl px-4 py-4">
-                        <p className="text-xs text-gray-400 uppercase font-bold">Status</p>
+                        <p className="text-xs text-black uppercase font-bold">Status</p>
                         <p className="text-green-600 font-semibold text-sm">Verified</p>
                     </div>
                 </div>

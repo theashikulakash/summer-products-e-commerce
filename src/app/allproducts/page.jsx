@@ -43,13 +43,13 @@ export default function AllProductBox() {
               </p>
               <p className="mt-3 text-sm text-sky-700/75">{product.description}</p>
               <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm text-[var(--primary)]/90">
-                <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-sky-700">
+                <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-white">
                   ${product.price}
                 </span>
-                <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-sky-700">
+                <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-white">
                   {product.rating} ★
                 </span>
-                <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-sky-700">
+                <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-white">
                   {product.stock} in stock
                 </span>
               </div>

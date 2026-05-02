@@ -33,10 +33,10 @@ export default function Navbar() {
                 </div>
 
                 {/* Nav Links - Hidden on very small screens, visible on md */}
-                <div className=" items-center flex gap-6 text-white font-medium">
+                <div className=" items-center flex gap-2 sm:gap-6 text-white font-medium">
                     <Link href="/" className="hover:underline">Home</Link>
                     <Link href="/allproducts" className="hover:underline">Products</Link>
-                    {/* {user && <Link href="/userprofile" className="hover:underline">My Profile</Link>} */}
+                    {user && <Link href="/userprofile" className="hover:underline">Profile</Link>}
                 </div>
 
                 {/* Auth Buttons */}
@@ -45,8 +45,18 @@ export default function Navbar() {
                         <div className="animate-pulse text-white text-sm">Checking...</div>
                     ) : user ? (
                         <>
-                            <Link href="/userprofile" className="bg-white rounded-full px-4 py-2 text-black font-bold text-sm hover:bg-gray-100 transition-colors">
-                                Profile
+                            <Link href="/userprofile" className="bg-white rounded-full p-1 hover:bg-gray-100 transition-colors">
+                                {user.image ? (
+                                    <img
+                                        src={user.image}
+                                        alt={user.name || "User"}
+                                        className="h-8 w-8 rounded-full hover:scale-105 object-cover"
+                                    />
+                                ) : (
+                                    <span className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-200 text-sm font-bold text-slate-700">
+                                        {user.name?.charAt(0).toUpperCase() || "U"}
+                                    </span>
+                                )}
                             </Link>
                             <button 
                                 onClick={handleLogout}
