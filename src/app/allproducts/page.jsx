@@ -13,7 +13,7 @@ export default function AllProductBox() {
 
   return (
     <section className=" p-6 max-w-10/12 mx-auto">
-      <h2 className="text-4xl font-bold text-center mb-8 text-sky-700">All Products Page</h2>
+      <h2 className="text-4xl font-bold text-center mb-8 text-sky-700">All Products</h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {products.map((product) => (
           <article
