@@ -8,7 +8,7 @@ import { toast } from 'react-toastify';
 const RegisterPage = () => {
     const router = useRouter(); 
 
-    // --- 1. Email/Password Signup Handler ---
+    
     const onSubmit = async(e) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
@@ -29,11 +29,12 @@ const RegisterPage = () => {
         }
     };
 
-    // --- 2. Google Social Signup Handler ---
+ 
+    
     const handleGoogleSignUp = async () => {
         await authClient.signIn.social({
             provider: "google",
-            callbackURL: "/", // Redirect here after success
+            callbackURL: "/",
             errorCallback: (error) => {
                 toast.error(error.message || "Google signup failed");
             }
@@ -96,7 +97,7 @@ const RegisterPage = () => {
                     </div>
                 </Form>
 
-                {/* Divider */}
+
                 <div className="relative my-8">
                     <div className="absolute inset-0 flex items-center">
                         <span className="w-full border-t border-gray-200"></span>
@@ -106,7 +107,7 @@ const RegisterPage = () => {
                     </div>
                 </div>
 
-                {/* Google Sign In Button */}
+
                 <Button 
                     onPress={handleGoogleSignUp}
                     className="w-full bg-white border-2 border-gray-100 text-gray-700 font-bold h-12 rounded-xl flex items-center justify-center gap-3 hover:bg-gray-50 transition-all"

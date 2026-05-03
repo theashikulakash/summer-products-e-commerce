@@ -23,7 +23,7 @@ export default function Hero() {
           DISCOUNT UP TO 50% OFF
         </p>
         <p className="mx-auto mb-4 max-w-2xl text-base sm:text-lg text-orange-500">
-          Hot deals 🔥
+           🔥 Hot deals 🔥
         </p>
         <a href="/allproducts" className="btn btn-primary bg-green-800 text-white font-bold p-3 rounded-3xl hover:bg-transparent hover:border-green-800 border hover:text-green-800">Shop Now</a>
       </div>

@@ -46,7 +46,7 @@ const ProfilePage = () => {
                         User Name: {user?.name}
                     </h1>
                     <p className="text-sky-600 font-medium bg-sky-50 px-4 py-1 rounded-full text-sm inline-block">
-                        <span>User Email: </span><a href="">{user?.email}</a>
+                        <span>User E-mail: </span><a href="">{user?.email}</a>
                     </p>
                 </div>
 
