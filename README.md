@@ -1,30 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
 
-## Getting Started
+## 🛡️ Authentication Flow
+The app uses a hybrid authentication model. 
+1. **Traditional:** Users can sign up using email and a password (minimum 8 characters with 1 uppercase and 1 number).
+2. **Social:** One-click registration/login via Google Cloud Console integration.
 
-First, run the development server:
 
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - seeA professional `README.md` is the "front door" of your project. Here is a clean, structured version tailored for your e-commerce project with **Better Auth**, **MongoDB**, and **Google OAuth**.
+
+---
+
+# ☀️ PeakSummer E-Commerce
+
+**PeakSummer** is a modern, high-performance e-commerce platform built for the summer season. It features robust authentication, a sleek user interface, and seamless social integration.
+
+🚀 **Live Demo:** [https://peak-summer.vercel.app/](https://peak-summer.vercel.app/)
+
+---
+
+## ✨ Features
+
+*   **🔒 Secure Authentication:** Powered by **Better Auth** with support for Email/Password and **Google OAuth**.
+*   **💅 Modern UI:** Built with **HeroUI** (formerly NextUI) and **Tailwind CSS** for a premium look and feel.
+*   **📦 Database:** Managed with **MongoDB** for flexible and scalable product and user storage.
+*   **🔔 Real-time Notifications:** Integrated with **React Toastify** for instant user feedback.
+*   **📱 Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+| :--- | :--- |
+| **Next.js 15** | React Framework for Server Components & Routing |
+| **Better Auth** | Comprehensive Authentication Framework |
+| **MongoDB** | NoSQL Database for user and product data |
+| **HeroUI** | High-quality UI Component Library |
+| **Tailwind CSS** | Utility-first CSS styling |
+| **React Toastify** | Elegant popup notifications |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 ```bash
+git clone [https://github.com/theashikulakash/summer-products-e-commerce.git](https://github.com/theashikulakash/summer-products-e-commerce.git)
+cd summer-products-e-commerce
+
+2. Install dependencies
+Bash
+npm install
+
+3. Set up Environment Variables
+Create a .env.local file in the root directory and add your credentials:
+
+Code snippet
+# MongoDB
+AUTH_DB_URI=your_mongodb_connection_string
+
+# Better Auth
+BETTER_AUTH_SECRET=your_32_char_secret
+BETTER_AUTH_URL=http://localhost:3000
+
+# Google OAuth
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+4. Run the development server
+Bash
 npm run dev
-```
+Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Project Structure
+Plaintext
+├── src/
+│   ├── app/            # Next.js App Router (Pages & Layouts)
+│   ├── components/     # Reusable UI Components
+│   ├── lib/            # Auth and DB configurations
+│   └── styles/         # Global CSS and Tailwind configs
+├── public/             # Static assets (images, icons)
+└── .env                # Environment variables (gitignored)
+🛡️ Authentication Flow
+The app uses a hybrid authentication model. (Email, Password & Google Authentication)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Traditional: Users can sign up using email and a password (minimum 8 characters with 1 uppercase and 1 number).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Social: One-click registration/login via Google Cloud Console integration.
 
-## Learn More
+📜 License
+ -- null --
 
-To learn more about Next.js, take a look at the following resources:
+👤 Author
+Md Ashikul Islam
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+GitHub: [https://github.com/theashikulakash](https://github.com/theashikulakash)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+LinkedIn: [https://www.linkedin.com/in/theashikulakash](https://www.linkedin.com/in/theashikulakash)
