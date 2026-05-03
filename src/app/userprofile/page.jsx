@@ -69,11 +69,11 @@ const ProfilePage = () => {
                 <div className="flex flex-row flex-wrap w-8/12 gap-3 mb-8 text-center justify-center">
 
                     <button
-                        onClick={() => router.push("/")}
+                        onClick={() => router.push("/updateProfile")}
                         className="w-full max-w-[250px] p-4 bg-[var(--accent)]/80 text-white font-bold rounded-3xl 
                    cursor-pointer flex items-center justify-center gap-2 hover:opacity-90 transition-opacity"
                     >
-                        <span>🏠</span> Go to Homepage
+                        <span>✏️</span> Edit User
                     </button>
 
                     <button
