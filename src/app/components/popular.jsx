@@ -57,9 +57,7 @@ const PopularProduct = () => {
                                     {product.rating} ★
                                 </span>
                             </div>
-                            {user && (
-                                <Link href={`/products/${product.id}`} className='btn flex flex-row w-fit mx-auto bg-sky-500 text-white rounded-full p-2 mt-3'>More Details <MoveUpRight height={15}/></Link>
-                            )}
+                            <Link href={user ? `/products/${product.id}` : '/login'} className='btn flex flex-row w-fit mx-auto bg-sky-500 text-white rounded-full p-2 mt-3'>More Details <MoveUpRight height={15}/></Link>
                         </div>
                     </article>
                 ))}

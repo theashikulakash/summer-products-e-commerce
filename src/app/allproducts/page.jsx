@@ -55,9 +55,7 @@ export default function AllProductBox() {
                 <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-white">
                   {product.stock} in stock
                 </span>
-                {user && (
-                  <Link href={`/products/${product.id}`} className='btn flex flex-row bg-sky-500 text-white rounded-full p-2 mt-3'>More Details <MoveUpRight height={15}/></Link>
-                )}
+                <Link href={user ? `/products/${product.id}` : '/login'} className='btn flex flex-row bg-sky-500 text-white rounded-full p-2 mt-3'>More Details <MoveUpRight height={15}/></Link>
               </div>
             </div>
           </article>
