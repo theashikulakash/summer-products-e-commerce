@@ -37,7 +37,7 @@ export default function NotFound() {
         </div>
 
         <p className="text-xs text-gray-400 pt-10 uppercase tracking-widest">
-          PeakSummer Error: 404_NOT_FOUND
+          PeakSummer Error: 404_NOT_FOUND ...
         </p>
       </div>
     </div>
