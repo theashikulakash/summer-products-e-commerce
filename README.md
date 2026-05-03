@@ -9,9 +9,9 @@ The app uses a hybrid authentication model.
 
 ---
 
-## 📜 License
+## 📜 Auth
 
-This project is licensed under the MIT License - seeA professional `README.md` is the "front door" of your project. Here is a clean, structured version tailored for your e-commerce project with **Better Auth**, **MongoDB**, and **Google OAuth**.
+Here is a clean, structured version tailored for your e-commerce project with **Better Auth**, **MongoDB**, and **Google OAuth**.
 
 ---
 
