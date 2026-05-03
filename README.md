@@ -1,48 +1,44 @@
----
 
-## 🛡️ Authentication Flow
-The app uses a hybrid authentication model. 
-1. **Traditional:** Users can sign up using email and a password (minimum 8 characters with 1 uppercase and 1 number).
-2. **Social:** One-click registration/login via Google Cloud Console integration.
+Your `README.md` is looking solid! Since you are building a modern e-commerce platform, adding a visual touch and a few more details about your specific tech stack choices will make it stand out to recruiters or other developers.
 
-
-
----
-
-## 📜 Auth
-
-Here is a clean, structured version tailored for your e-commerce project with **Better Auth**, **MongoDB**, and **Google OAuth**.
+Here is a polished, copy-paste ready version of your **README.md** with improved formatting, clear instructions, and a professional layout.
 
 ---
 
 # ☀️ PeakSummer E-Commerce
 
-**PeakSummer** is a modern, high-performance e-commerce platform built for the summer season. It features robust authentication, a sleek user interface, and seamless social integration.
+**PeakSummer** is a high-performance, aesthetically pleasing e-commerce platform designed for the summer season. Built with the latest web technologies, it offers a seamless shopping experience with secure authentication and a highly responsive interface.
 
-🚀 **Live Demo:** [https://peak-summer.vercel.app/](https://peak-summer.vercel.app/)
-
----
-
-## ✨ Features
-
-*   **🔒 Secure Authentication:** Powered by **Better Auth** with support for Email/Password and **Google OAuth**.
-*   **💅 Modern UI:** Built with **HeroUI** (formerly NextUI) and **Tailwind CSS** for a premium look and feel.
-*   **📦 Database:** Managed with **MongoDB** for flexible and scalable product and user storage.
-*   **🔔 Real-time Notifications:** Integrated with **React Toastify** for instant user feedback.
-*   **📱 Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
+🔗 **Live Demo:** [https://peak-summer.vercel.app/](https://peak-summer.vercel.app/)
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Key Features
 
-| Technology | Purpose |
-| :--- | :--- |
-| **Next.js 15** | React Framework for Server Components & Routing |
-| **Better Auth** | Comprehensive Authentication Framework |
-| **MongoDB** | NoSQL Database for user and product data |
-| **HeroUI** | High-quality UI Component Library |
-| **Tailwind CSS** | Utility-first CSS styling |
-| **React Toastify** | Elegant popup notifications |
+*   **🔒 Hybrid Authentication:** Secure sign-in via Email/Password or one-click **Google OAuth** integration, powered by **Better Auth**.
+*   **💅 Premium UI/UX:** A sleek, modern interface built with **HeroUI** (formerly NextUI) and **Tailwind CSS**.
+*   **⚡ Real-time Feedback:** Instant user notifications using **React Toastify**.
+*   **📂 Profile Management:** Users can update their display names and profile pictures directly.
+*   **📱 Fully Responsive:** Optimized for a flawless experience across mobile, tablet, and desktop devices.
+*   **🚀 Modern Stack:** Leveraging **Next.js 15** Server Components for SEO and speed.
+
+---
+
+## 🛠️ Tech Stack & Packages
+
+### Core Frameworks
+*   **Next.js 15:** The React framework for production.
+*   **Better Auth:** A comprehensive authentication library for Next.js.
+*   **MongoDB:** NoSQL database for scalable data storage.
+
+### UI & Styling
+*   **HeroUI (@heroui/react):** Modern UI components.
+*   **Tailwind CSS:** For rapid, utility-first styling.
+*   **Animate.css / React Spring:** For smooth transitions and animations.
+
+### Utilities
+*   **React Toastify:** For elegant, non-blocking notifications.
+*   **Gravity UI Icons:** A clean, professional icon set.
 
 ---
 
@@ -50,55 +46,84 @@ Here is a clean, structured version tailored for your e-commerce project with **
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/theashikulakash/summer-products-e-commerce.git](https://github.com/theashikulakash/summer-products-e-commerce.git)
+git clone https://github.com/theashikulakash/summer-products-e-commerce.git
 cd summer-products-e-commerce
+```
 
-2. Install dependencies
-Bash
+### 2. Install dependencies
+```bash
 npm install
+```
 
-3. Set up Environment Variables
-Create a .env.local file in the root directory and add your credentials:
+### 3. Environment Setup
+Create a `.env.local` file in the root directory:
 
-Code snippet
-# MongoDB
+```env
+# Database
 AUTH_DB_URI=your_mongodb_connection_string
 
-# Better Auth
-BETTER_AUTH_SECRET=your_32_char_secret
+# Better Auth Configuration
+BETTER_AUTH_SECRET=your_32_character_secret
 BETTER_AUTH_URL=http://localhost:3000
 
-# Google OAuth
+# Google OAuth Credentials
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
+```
 
-4. Run the development server
-Bash
+### 4. Run the App
+```bash
 npm run dev
-Open http://localhost:3000 in your browser.
+```
+Visit `http://localhost:3000` to see the app in action.
 
-📁 Project Structure
-Plaintext
+---
+
+## 📂 Project Structure
+
+```text
 ├── src/
-│   ├── app/            # Next.js App Router (Pages & Layouts)
-│   ├── components/     # Reusable UI Components
-│   ├── lib/            # Auth and DB configurations
-│   └── styles/         # Global CSS and Tailwind configs
-├── public/             # Static assets (images, icons)
-└── .env                # Environment variables (gitignored)
-🛡️ Authentication Flow
-The app uses a hybrid authentication model. (Email, Password & Google Authentication)
+│   ├── app/            # App Router (Pages, Layouts, and API)
+│   ├── components/     # Reusable UI components
+│   ├── lib/            # Better Auth & DB initialization
+│   └── styles/         # Tailwind and Global CSS
+├── public/             # Static assets and Lottie animations
+└── .env                # Secret environment variables
+```
 
-Traditional: Users can sign up using email and a password (minimum 8 characters with 1 uppercase and 1 number).
+---
 
-Social: One-click registration/login via Google Cloud Console integration.
+## 🛡️ Authentication Flow
 
-📜 License
- -- null --
+PeakSummer implements a dual-layer authentication strategy:
 
-👤 Author
-Md Ashikul Islam
+1.  **Email & Password:** Requires a minimum of 8 characters, including at least one uppercase letter and one number for enhanced security.
+2.  **Social Login:** Seamless integration with Google Cloud Console for instant account creation and login.
 
-GitHub: [https://github.com/theashikulakash](https://github.com/theashikulakash)
+---
 
-LinkedIn: [https://www.linkedin.com/in/theashikulakash](https://www.linkedin.com/in/theashikulakash)
+## 👤 Author
+
+**Md Ashikul Islam**
+
+*   **GitHub:** [@theashikulakash](https://github.com/theashikulakash)
+*   **LinkedIn:** [Md Ashikul Islam](https://www.linkedin.com/in/theashikulakash)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
