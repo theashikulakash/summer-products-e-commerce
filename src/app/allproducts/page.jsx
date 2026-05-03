@@ -5,6 +5,7 @@ import Link from "next/link";
 import { authClient } from "@/lib/auth-client";
 // import Image from "next/image";
 import products from "../data/products.json";
+import { MoveUpRight } from 'lucide-react';
 
 export default function AllProductBox() {
   const { data: session } = authClient.useSession();
@@ -44,7 +45,7 @@ export default function AllProductBox() {
                 {product.brand}
               </p>
               <p className="mt-3 text-sm text-sky-700/75">{product.description}</p>
-              <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm text-[var(--primary)]/90">
+              <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm text-[var(--primary)]/90">
                 <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-white">
                   ${product.price}
                 </span>
@@ -54,6 +55,9 @@ export default function AllProductBox() {
                 <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1 text-white">
                   {product.stock} in stock
                 </span>
+                {user && (
+                  <Link href={`/products/${product.id}`} className='btn flex flex-row bg-sky-500 text-white rounded-full p-2 mt-3'>More Details <MoveUpRight height={15}/></Link>
+                )}
               </div>
             </div>
           </article>

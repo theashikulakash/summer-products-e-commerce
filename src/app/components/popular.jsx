@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { authClient } from '@/lib/auth-client';
 import products from '../data/products.json';
+import { MoveUpRight } from 'lucide-react';
 
 const PopularProduct = () => {
   const { data: session } = authClient.useSession();
@@ -48,7 +49,7 @@ const PopularProduct = () => {
                             <p className="mt-3 text-sm text-sky-700/85">
                                 {product.description}
                             </p>
-                            <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm text-white">
+                            <div className="mt-4 mb-3 flex flex-wrap items-center justify-center gap-3 text-sm text-white">
                                 <span className="rounded-full bg-[var(--accent)]/80 px-3 py-1">
                                     ${product.price}
                                 </span>
@@ -56,6 +57,9 @@ const PopularProduct = () => {
                                     {product.rating} ★
                                 </span>
                             </div>
+                            {user && (
+                                <Link href={`/products/${product.id}`} className='btn flex flex-row w-fit mx-auto bg-sky-500 text-white rounded-full p-2 mt-3'>More Details <MoveUpRight height={15}/></Link>
+                            )}
                         </div>
                     </article>
                 ))}
