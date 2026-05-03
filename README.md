@@ -49,7 +49,7 @@ Here is a clean, structured version tailored for your e-commerce project with **
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-
+```bash
 git clone [https://github.com/theashikulakash/summer-products-e-commerce.git](https://github.com/theashikulakash/summer-products-e-commerce.git)
 cd summer-products-e-commerce
 
