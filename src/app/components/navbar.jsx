@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className="flex flex-row items-center justify-between rounded-3xl p-4 mx-auto w-11/12 md:w-10/12">
                 
                 {/* Logo Section */}
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 ">
                     <Link href="/" className="hidden sm:block text-2xl font-bold text-white">
                         PeakSummer
                     </Link>

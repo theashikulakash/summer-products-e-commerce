@@ -45,7 +45,7 @@ const RegisterPage = () => {
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 py-12 px-4">
             <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 w-full max-w-md">
                 <h2 className="text-3xl font-bold text-sky-600 text-center">Create Account</h2>
-                <p className="text-gray-500 text-center mt-2 mb-8">Join PeakSummer today</p>
+                <p className="text-gray-500 text-center mt-2 mb-8 animate__animated animate__fadeInUp">Join PeakSummer today</p>
 
                 <Form className="flex flex-col gap-4" onSubmit={onSubmit}>
                     <TextField isRequired name="name" type="text">

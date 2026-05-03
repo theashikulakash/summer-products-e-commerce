@@ -17,15 +17,15 @@ export default function Hero() {
         >
             {/* center items */}
       <div className="mx-auto max-w-6xl px-4 text-center">
-        <p className="text-xl uppercase font-bold tracking-[0.3em] text-orange-500">PeakSummer</p>
+        <p className="text-xl uppercase font-bold tracking-[0.3em] text-orange-500 ">PeakSummer</p>
         <h1 className="my-4 text-4xl text-green-800 font-bold md:text-5xl">Fresh Vibes, Hot Deals</h1>
         <p className="mx-auto max-w-2xl text-base sm:text-lg text-green-800">
           DISCOUNT UP TO 50% OFF
         </p>
-        <p className="mx-auto mb-4 max-w-2xl text-base sm:text-lg text-orange-500">
+        <p className="mx-auto mb-4 max-w-2xl text-base sm:text-lg text-orange-500 animate__heartBeat">
            🔥 Hot deals 🔥
         </p>
-        <a href="/allproducts" className="btn btn-primary bg-green-800 text-white font-bold p-3 rounded-3xl hover:bg-transparent hover:border-green-800 border hover:text-green-800">Shop Now</a>
+        <a href="/allproducts" className="btn btn-primary bg-green-800 text-white font-bold p-3 rounded-3xl hover:bg-transparent hover:border-green-800 border hover:text-green-800 ">Shop Now</a>
       </div>
 
             {/* summer tips */}
